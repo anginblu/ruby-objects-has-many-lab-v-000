@@ -1,7 +1,7 @@
 class Author
-  attr_accessor :name, :artist, :song
+  attr_accessor :name, :author, :post
 
-  @@song_count = 0
+  @@post_count = 0
 
   def initialize(name)
     @name = name
