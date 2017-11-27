@@ -8,8 +8,8 @@ class Author
     @posts = []
   end
 
-  def songs
-    @songs
+  def posts
+    @posts
   end
 
   def add_song(song)
