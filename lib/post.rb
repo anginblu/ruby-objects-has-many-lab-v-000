@@ -5,7 +5,7 @@ class Post
     @name = name
   end
 
-  def artist_name
+  def author_name
     if artist == nil
       nil
     else
